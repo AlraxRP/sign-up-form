@@ -4,3 +4,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body
+{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.left-container
+{
+    width: 30%;
+    background-image: url("../imgs/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.right-container
+{
+    width: 70%;
+}
