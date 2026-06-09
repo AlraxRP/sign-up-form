@@ -10,6 +10,7 @@ body
     display: flex;
     flex-direction: row;
     height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .left-container
@@ -23,4 +24,22 @@ body
 .right-container
 {
     width: 70%;
+}
+
+.right-container .description
+{
+    width: 770px;
+    margin: 150px 0 50px 40px;
+}
+
+.right-container h1
+{
+    font-size: 1.6em;
+    margin-bottom: 30px;
+}
+
+.right-container p
+{
+    font-size: 1.6em;
+    font-weight: bold;
 }
