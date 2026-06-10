@@ -32,14 +32,65 @@ body
     margin: 150px 0 50px 40px;
 }
 
-.right-container h1
+.description h1
 {
     font-size: 1.6em;
     margin-bottom: 30px;
 }
 
-.right-container p
+.description p
 {
     font-size: 1.6em;
     font-weight: bold;
+}
+
+.right-container .form-container
+{
+    border-top: 1px solid black;
+    border-bottom:  1px solid black;
+
+    padding: 20px 0 30px 50px;
+}
+
+.form-container p
+{
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-container .sign-up-form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-form .form-row
+{
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.form-row .form-element
+{
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 110px;
+}
+
+.form-element label
+{
+    font-size: 0.9em;
+}
+
+.form-element input
+{
+    font-size: 1.1em;
+
+    padding: 5px 10px;
+
+    width: 280px;
 }
