@@ -29,6 +29,8 @@ body
     flex-direction: row;
     height: 130vh;
     font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #f7f5f5;
 }
 
 .left-container
@@ -111,12 +113,12 @@ body
 
 .right-container .form-container
 {
-    border-top: 1px solid black;
-    border-bottom:  1px solid black;
+    padding: 20px 0 20px 50px;
 
-    padding: 20px 0 30px 50px;
+    margin-bottom: 50px;
 
-    margin-bottom: 30px;
+    box-shadow: 0 5px 10px rgb(195, 195, 195);
+    background-color: white;
 }
 
 .form-container p
@@ -134,7 +136,7 @@ body
 
 .sign-up-form .form-row
 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 
     display: flex;
     flex-direction: row;
@@ -151,6 +153,8 @@ body
 .form-element label
 {
     font-size: 0.9em;
+    font-weight: bold;
+    color: rgb(64, 64, 64);
 }
 
 .form-element input
