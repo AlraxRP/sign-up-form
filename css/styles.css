@@ -200,6 +200,17 @@ body
     margin-bottom: 40px;
 }
 
+.form-footer button:hover
+{
+    background-color: #4a5b3c;
+    cursor: pointer;
+}
+
+.form-footer button:active
+{
+    background-color: #8fae74;
+}
+
 .form-footer p
 {
     font-size: 1.2em;
