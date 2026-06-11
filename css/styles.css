@@ -160,6 +160,20 @@ body
     padding: 5px 10px;
 
     width: 280px;
+    border-radius: 8px;
+    border-color: rgba(250, 239, 239, 0.67);
+    border: 1px solid;
+}
+
+.form-element input:focus
+{
+    border-color: blue;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.form-element input:user-invalid
+{
+    border-color: red;
 }
 
 .right-container .form-footer
